@@ -25,7 +25,7 @@ public class Biblioteka implements bibliotekainterfejs{
 		if(naslov==null)
 			throw new RuntimeException("Naslov ne sme biti null.");
 		
->>>>>>> refs/heads/logickakontrola
+
 		for(int i=0; i<knjige.size(); i++){
 			if(knjige.get(i).getNaslov().contains(naslov))
 				rezultat.add(knjige.get(i));
