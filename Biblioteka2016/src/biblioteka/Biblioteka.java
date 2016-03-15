@@ -7,6 +7,8 @@ public class Biblioteka implements bibliotekainterfejs{
 	private LinkedList <Knjiga> knjige  = new LinkedList <Knjiga>();
 	//Lista knjiga u biblioteci
 	public void dodajKnjigu(Knjiga knjiga){
+		//Ne sme biti duplikata knjiga
+		
 		if(knjiga==null || knjige.contains(knjiga))
 			throw new RuntimeException("Greska pri unosu knjige!");
 		knjige.add(knjiga);
