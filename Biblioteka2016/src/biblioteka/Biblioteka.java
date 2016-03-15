@@ -5,6 +5,7 @@ import biblioteka.interfejs.bibliotekainterfejs;
 
 public class Biblioteka implements bibliotekainterfejs{
 	private LinkedList <Knjiga> knjige  = new LinkedList <Knjiga>();
+	//Lista knjiga u biblioteci
 	public void dodajKnjigu(Knjiga knjiga){
 		knjige.add(knjiga);
 	}
